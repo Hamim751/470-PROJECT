@@ -37,7 +37,7 @@ class UserTest extends \PHPUnit\Framework\TestCase
 
         $dbMock->method('fetch')->willReturn($type);
 
-        $this->assertEquals($this->user->login("mahi@gmail.com", "asd123", $type), 1);
+        $this->assertEquals($this->user->login("hamim751@gmail.com", "asd123", $type), 1);
     }
 
     public function testgetToken()
